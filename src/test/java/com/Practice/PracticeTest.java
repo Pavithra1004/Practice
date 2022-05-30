@@ -48,6 +48,7 @@ public class PracticeTest {
 	public void test1()
 	{
 		Reporter.log("Test21", true);
+		Reporter.log(browser, true);
 	}
 	@Test
 	public void test21()
