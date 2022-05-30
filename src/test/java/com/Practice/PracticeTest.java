@@ -53,7 +53,9 @@ public class PracticeTest {
 	@Test
 	public void test21()
 	{
+		String browser = System.getProperty("browser");
 		Reporter.log("Test2", true);
+		Reporter.log(browser, true);
 	}
 	
 	@BeforeClass(groups = "Baseclass")
