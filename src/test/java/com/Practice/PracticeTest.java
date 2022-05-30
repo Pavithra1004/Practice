@@ -47,8 +47,14 @@ public class PracticeTest {
 	@Test
 	public void test1()
 	{
-		Reporter.log("Test1", true);
+		Reporter.log("Test21", true);
 	}
+	@Test
+	public void test21()
+	{
+		Reporter.log("Test2", true);
+	}
+	
 	@BeforeClass(groups = "Baseclass")
 	public void beforeClass1()
 	{
